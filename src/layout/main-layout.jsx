@@ -12,7 +12,7 @@ const MainLayout = () => {
       <main>
         <Outlet />
       </main>
-      <footer className="">
+      <footer className="pt-20">
         <div className="border-b-2 pb-24">
           <Footer />
         </div>

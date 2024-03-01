@@ -8,7 +8,7 @@ import HeaderCard from '../../assets/icon/HeaderCard'
 const Header = () => {
   return (
     <div className='flex items-center justify-between'>
-      <Link className=' flex items-center gap-2'>
+      <Link to='/' className=' flex items-center gap-2'>
         <div>
           <HeaderLogo/>
         </div>

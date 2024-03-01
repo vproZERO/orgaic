@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        
         arapawa: '#274C5B',
         padua: '#7EB693',
         yellow: '#EFD372',

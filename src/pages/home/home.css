@@ -1,9 +1,22 @@
 
 
 .hero_section{
-    background-image: url('../../assets/img/hero-bg.png') , url('../../assets/img/hero-bg-img.png');
+    background-image:  url('../../assets/img/hero-bg-img.png') , url('../../assets/img/hero-bg.png');
+    background-repeat: no-repeat , no-repeat;
+    background-size: contain , cover;
+    background-position: top , center;
+    z-index: 0;
+}
+
+.we_working_section{
+    background-image:  url('../../assets/img/working-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+.testimonial_section{
+    background-image:  url('../../assets/img/testimonial.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    z-index: 0;
 }
