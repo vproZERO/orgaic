@@ -6,7 +6,7 @@ const Our = ({ item }) => {
     <div className="aos-init aos-animate" data-aos={item.id % 2 === 0 ? 'fade-right' : 'fade-left'} data-aos-duration='1500' key={item.id}>
       <Link
         key={item.id}
-        to={`/home/${item.id}`}
+        to={`/shop-single/${item.id}`}
         className="border-[1px] bg-white shadow-md rounded-3xl block px-7 pt-7 pb-4 transition hover:-translate-y-2"
       >
         <span className="font-semibold text-base mb-2 inline-block text-white bg-arapawa py-[5px] px-3 rounded-lg">{item.category}</span>

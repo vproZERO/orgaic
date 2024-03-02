@@ -3,8 +3,13 @@ import { Link } from "react-router-dom";
 import NewsLatter from "../../components/news-latter/news-latter";
 import './about.css'
 import AboutOffer from "./components/about-offer";
-import { aboutOfferData, aboutUserData } from "../../data";
+import { aboutChooseData, aboutOfferData, aboutUserData } from "../../data";
 import AboutUsers from "./components/about-users";
+import aboutWeImg from '../../assets/img/about-we.png'
+import AboutDo from "./components/about-do";
+import AboutChooseImg from '../../assets/img/about-choose.png'
+import AboutChoose from "./components/about-choose";
+import AboutChooseCard from "./components/about-choose-card";
 
 const About = () => {
   return (
@@ -13,6 +18,29 @@ const About = () => {
         <h2 className="text-center font-extrabold text-7xl text-arapawa">
           About
         </h2>
+      </section>
+
+      <section className="about_do_section pr-20 py-[68px] flex items-center justify-between">
+          <div className="w-[806px] aos-init aos-animate" data-aos='fade-right' data-aos-duration='1500'>
+            <img src={aboutWeImg} alt="img" />
+          </div>
+          <div>
+            <AboutDo/>
+          </div>
+      </section>
+
+      <section className="bg-doctor px-20 py-48">
+        <div className="flex items-center justify-between mb-24">
+          <AboutChoose/>
+          <div className="max-w-[678px] aos-init aos-animate" data-aos='fade-left' data-aos-duration='1500'>
+            <img src={AboutChooseImg} alt="about choose img" />
+          </div>
+        </div>
+        <div className="flex items-center justify-center gap-8">
+          {aboutChooseData.map((item) => (
+            <AboutChooseCard item={item}/>
+          ))}
+        </div>
       </section>
 
       <section className="px-20 py-[177px]">

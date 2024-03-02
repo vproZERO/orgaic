@@ -33,6 +33,30 @@ import AboutTwitter from "../assets/icon/about-twitter.svg";
 
 
 
+
+export const aboutChooseData = [
+  {
+    id:1,
+    title: 'Return Policy',
+    text: 'Simply dummy text of the printintypesetting industry.'
+  },
+  {
+    id:2,
+    title: '100% Fresh',
+    text: 'Simply dummy text of the printintypesetting industry.'
+  },
+  {
+    id:3,
+    title: 'Support 24/7',
+    text: 'Simply dummy text of the printintypesetting industry.'
+  },
+  {
+    id:4,
+    title: 'Secured Payment    ',
+    text: 'Simply dummy text of the printintypesetting industry.'
+  }
+]
+
 export const aboutUserData = [
     {
         id:1,
