@@ -1,8 +1,6 @@
-
-
-.news_lattter_box{
-    background-image:  url('../../assets//img/news-latter.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.news_lattter_box {
+  background-image: url("../../assets//img/news-latter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

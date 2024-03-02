@@ -18,7 +18,9 @@ const MainLayout = () => {
         </div>
         <div className="py-6">
           <p className="text-center font-normal text-lg text-city">
-            Copyright © <span className="font-bold">Organick </span>| Designed by <span className="font-bold">VictorFlow</span> Templates - Powered by
+            Copyright © <span className="font-bold">Organick </span>| Designed
+            by <span className="font-bold">VictorFlow</span> Templates - Powered
+            by
             <span className="font-bold">Webflow</span>
           </p>
         </div>

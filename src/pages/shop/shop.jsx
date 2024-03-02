@@ -3,14 +3,17 @@ import { Link, Outlet } from "react-router-dom";
 import NewsLatter from "../../components/news-latter/news-latter";
 import Our from "../../components/our/our";
 import { productsData } from "../../data";
-import './shop.css';
+import useScrollTop from "../../hooks/useScrollTop";
+import "./shop.css";
 
 const Shop = () => {
+  useScrollTop();
   return (
     <div>
-
       <section className="shop_hero_section py-[184px]">
-          <h2 className="text-center font-extrabold text-7xl text-arapawa">Shop</h2>
+        <h2 className="text-center font-extrabold text-7xl text-arapawa">
+          Shop
+        </h2>
       </section>
 
       <section className="pt-[90px] pb-[140px] px-20">
@@ -21,7 +24,7 @@ const Shop = () => {
         </div>
       </section>
 
-      <NewsLatter/>
+      <NewsLatter />
     </div>
   );
 };

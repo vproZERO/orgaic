@@ -27,7 +27,7 @@ const Footer = () => {
         </p>
       </div>
       <div className="border-r-2 h-[316px] border-[#E0E0E0] pr-12">
-        <Link className=" flex items-center justify-center gap-2 mb-6">
+        <Link to="/" className=" flex items-center justify-center gap-2 mb-6">
           <div>
             <HeaderLogo />
           </div>
@@ -38,16 +38,28 @@ const Footer = () => {
           Ipsum simply dummy text of the printing{" "}
         </p>
         <div className="flex items-center justify-center gap-3.5">
-          <Link to="/instagram" className="transition hover:-translate-y-1 hover:shadow-2xl rounded-full">
+          <Link
+            to="/instagram"
+            className="transition hover:-translate-y-1 hover:shadow-2xl rounded-full"
+          >
             <FooterInstagram />
           </Link>
-          <Link to="/facebook" className="transition hover:-translate-y-1 hover:shadow-2xl rounded-full">
+          <Link
+            to="/facebook"
+            className="transition hover:-translate-y-1 hover:shadow-2xl rounded-full"
+          >
             <FooterFacebook />
           </Link>
-          <Link to="/twitter" className="transition hover:-translate-y-1 hover:shadow-2xl rounded-full">
+          <Link
+            to="/twitter"
+            className="transition hover:-translate-y-1 hover:shadow-2xl rounded-full"
+          >
             <FooterTwitter />
           </Link>
-          <Link to="/p" className="transition hover:-translate-y-1 hover:shadow-2xl rounded-full">
+          <Link
+            to="/p"
+            className="transition hover:-translate-y-1 hover:shadow-2xl rounded-full"
+          >
             <FooterP />
           </Link>
         </div>
@@ -61,7 +73,6 @@ const Footer = () => {
         <p className="text-city font-normal text-lg mb-2">Password Protected</p>
         <p className="text-city font-normal text-lg mb-2">Licences</p>
         <p className="text-city font-normal text-lg">Changelog</p>
-
       </div>
     </div>
   );

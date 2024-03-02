@@ -2,7 +2,12 @@ import React from "react";
 
 const AboutUsers = ({ item }) => {
   return (
-    <div key={item.id} className="bg-doctor hover:bg-white transition hover:-translate-y-2 cursor-pointer hover:shadow-2xl  rounded-[30px] aos-init aos-animate" data-aos='fade-up' data-aos-duration='1500'>
+    <div
+      key={item.id}
+      className="bg-doctor hover:bg-white transition hover:-translate-y-2 cursor-pointer hover:shadow-2xl  rounded-[30px] aos-init aos-animate"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
       <div className="mb-9">
         <img src={item.img} alt={item.name} />
       </div>

@@ -15,117 +15,113 @@ import productImg10 from "../assets/img/product10.png";
 import productImg11 from "../assets/img/product11.png";
 import productImg12 from "../assets/img/product12.png";
 
-import blogImg from '../assets/img/blog.png'
-import blogImg2 from '../assets/img/blog2.png'
+import blogImg from "../assets/img/blog.png";
+import blogImg2 from "../assets/img/blog2.png";
 
-import aboutOffetImg from '../assets/img/about-offet.png'
-import aboutOffetImg2 from '../assets/img/about-offet2.png'
-import aboutOffetImg3 from '../assets/img/about-offet3.png'
-import aboutOffetImg4 from '../assets/img/about-offet4.png'
+import aboutOffetImg from "../assets/img/about-offet.png";
+import aboutOffetImg2 from "../assets/img/about-offet2.png";
+import aboutOffetImg3 from "../assets/img/about-offet3.png";
+import aboutOffetImg4 from "../assets/img/about-offet4.png";
 
-import aboutUserImg from '../assets/img/about-user.png'
-import aboutUserImg2 from '../assets/img/about-user2.png'
-import aboutUserImg3 from '../assets/img/about-user3.png'
+import aboutUserImg from "../assets/img/about-user.png";
+import aboutUserImg2 from "../assets/img/about-user2.png";
+import aboutUserImg3 from "../assets/img/about-user3.png";
 
 import AboutFacebook from "../assets/icon/about-facebook.svg";
 import AboutInstagram from "../assets/icon/about-instagram.svg";
 import AboutTwitter from "../assets/icon/about-twitter.svg";
 
-
-
-
 export const aboutChooseData = [
   {
-    id:1,
-    title: 'Return Policy',
-    text: 'Simply dummy text of the printintypesetting industry.'
+    id: 1,
+    title: "Return Policy",
+    text: "Simply dummy text of the printintypesetting industry.",
   },
   {
-    id:2,
-    title: '100% Fresh',
-    text: 'Simply dummy text of the printintypesetting industry.'
+    id: 2,
+    title: "100% Fresh",
+    text: "Simply dummy text of the printintypesetting industry.",
   },
   {
-    id:3,
-    title: 'Support 24/7',
-    text: 'Simply dummy text of the printintypesetting industry.'
+    id: 3,
+    title: "Support 24/7",
+    text: "Simply dummy text of the printintypesetting industry.",
   },
   {
-    id:4,
-    title: 'Secured Payment    ',
-    text: 'Simply dummy text of the printintypesetting industry.'
-  }
-]
+    id: 4,
+    title: "Secured Payment    ",
+    text: "Simply dummy text of the printintypesetting industry.",
+  },
+];
 
 export const aboutUserData = [
-    {
-        id:1,
-        img: aboutUserImg,
-        name: 'Giovani Bacardo',
-        category: 'Farmer',
-        facebook: AboutFacebook,
-        twitter: AboutTwitter
-    },
-    {
-        id:2,
-        img: aboutUserImg2,
-        name: 'Marianne Loreno',
-        category: 'Designer',
-        instagram: AboutInstagram,
-        facebook: AboutFacebook,
-        twitter: AboutTwitter
-    },
-    {
-        id:3,
-        img: aboutUserImg3,
-        name: 'Riga Pelore',
-        category: 'Farmer',
-        instagram: AboutInstagram,
-        facebook: AboutFacebook,
-        twitter: AboutTwitter
-    }
-]
+  {
+    id: 1,
+    img: aboutUserImg,
+    name: "Giovani Bacardo",
+    category: "Farmer",
+    facebook: AboutFacebook,
+    twitter: AboutTwitter,
+  },
+  {
+    id: 2,
+    img: aboutUserImg2,
+    name: "Marianne Loreno",
+    category: "Designer",
+    instagram: AboutInstagram,
+    facebook: AboutFacebook,
+    twitter: AboutTwitter,
+  },
+  {
+    id: 3,
+    img: aboutUserImg3,
+    name: "Riga Pelore",
+    category: "Farmer",
+    instagram: AboutInstagram,
+    facebook: AboutFacebook,
+    twitter: AboutTwitter,
+  },
+];
 
 export const aboutOfferData = [
-    {
-        id:1,
-        title: 'Spicy',
-        img : aboutOffetImg
-    },
-    {
-        id:2,
-        title: 'Nuts & Feesd',
-        img : aboutOffetImg2
-    },
-    {
-        id:3,
-        title: 'Fruits',
-        img : aboutOffetImg3
-    },
-    {
-        id:4,
-        title: 'Vegetable',
-        img : aboutOffetImg4
-    }
-]
-
+  {
+    id: 1,
+    title: "Spicy",
+    img: aboutOffetImg,
+  },
+  {
+    id: 2,
+    title: "Nuts & Feesd",
+    img: aboutOffetImg2,
+  },
+  {
+    id: 3,
+    title: "Fruits",
+    img: aboutOffetImg3,
+  },
+  {
+    id: 4,
+    title: "Vegetable",
+    img: aboutOffetImg4,
+  },
+];
 
 export const blogData = [
-    {
-        id:1,
-        author: 'By Rachi Card',
-        title: 'The Benefits of Vitamin D & How to Get It',
-        text: 'Simply dummy text of the printing and typesetting industry. Lorem Ipsum',
-        img: blogImg
-    },
-    {
-        id:2,
-        author: 'By Rachi Card',
-        title: 'Our Favourite Summertime Tommeto',
-        text: 'Simply dummy text of the printing and typesetting industry. Lorem Ipsum',
-        img: blogImg2
-    }
-]
+  {
+    id: 1,
+    author: "By Rachi Card",
+    title: "The Benefits of Vitamin D & How to Get It",
+    text: "Simply dummy text of the printing and typesetting industry. Lorem Ipsum",
+    img: blogImg,
+  },
+  {
+    id: 2,
+    author: "By Rachi Card",
+    title: "Our Favourite Summertime Tommeto",
+    text: "Simply dummy text of the printing and typesetting industry. Lorem Ipsum",
+    img: blogImg2,
+  },
+];
 
 export const productsData = [
   {
@@ -136,6 +132,7 @@ export const productsData = [
     subprice: "$20.00",
     price: "$13.00",
     stars: Stars,
+    text: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
   {
     id: 2,
@@ -145,6 +142,7 @@ export const productsData = [
     subprice: "$20.00",
     price: "$14.00",
     stars: Stars,
+    text: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
   {
     id: 3,
@@ -154,6 +152,7 @@ export const productsData = [
     subprice: "$20.00",
     price: "$15.00",
     stars: Stars,
+    text: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
   {
     id: 4,
@@ -163,6 +162,7 @@ export const productsData = [
     subprice: "$20.00",
     price: "$17.00",
     stars: Stars,
+    text: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
   {
     id: 5,
@@ -172,6 +172,7 @@ export const productsData = [
     subprice: "$20.00",
     price: "$11.00",
     stars: Stars,
+    text: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
 
   {
@@ -182,6 +183,7 @@ export const productsData = [
     subprice: "$20.00",
     price: "$12.00",
     stars: Stars,
+    text: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
   {
     id: 7,
@@ -191,6 +193,7 @@ export const productsData = [
     subprice: "$20.00",
     price: "$17.00",
     stars: Stars,
+    text: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
   {
     id: 8,
@@ -200,6 +203,7 @@ export const productsData = [
     subprice: "$20.00",
     price: "$15.00",
     stars: Stars,
+    text: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
   {
     id: 9,
@@ -209,6 +213,7 @@ export const productsData = [
     subprice: "$20.00",
     price: "$11.00",
     stars: Stars,
+    text: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
   {
     id: 10,
@@ -218,6 +223,7 @@ export const productsData = [
     subprice: "$20.00",
     price: "$12.00",
     stars: Stars,
+    text: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
   {
     id: 11,
@@ -227,6 +233,7 @@ export const productsData = [
     subprice: "$20.00",
     price: "$17.00",
     stars: Stars,
+    text: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
   {
     id: 12,
@@ -236,6 +243,7 @@ export const productsData = [
     subprice: "$20.00",
     price: "$15.00",
     stars: Stars,
+    text: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
 ];
 
@@ -288,24 +296,24 @@ export const bannerData = [
 ];
 
 export const testimonialData = [
-    {
-        id:1,
-        title: '100%',
-        text: 'Organic'
-    },
-    {
-        id:2,
-        title: '285',
-        text: 'Active Product'
-    },
-    {
-        id:3,
-        title: '350+',
-        text: 'Organic Orchads'
-    },
-    {
-        id:4,
-        title: '25+',
-        text: 'Years of Farming'
-    }
-]
+  {
+    id: 1,
+    title: "100%",
+    text: "Organic",
+  },
+  {
+    id: 2,
+    title: "285",
+    text: "Active Product",
+  },
+  {
+    id: 3,
+    title: "350+",
+    text: "Organic Orchads",
+  },
+  {
+    id: 4,
+    title: "25+",
+    text: "Years of Farming",
+  },
+];

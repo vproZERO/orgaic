@@ -17,7 +17,7 @@ function App() {
           <Route path="shop" element={<Shop />} />
           <Route path="shop-single/:slug" element={<ShopSingle />} />
         </Route>
-        <Route path="*" element={<PageNotFound/>}/>
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </>
   );

@@ -236,27 +236,46 @@ const Home = () => {
       </section>
 
       <section className="galery_section  bg-[#F1F8F4] py-[187px] grid grid-cols-3 gap-11">
-        <Gallery/>
+        <Gallery />
       </section>
 
       <section className="blog_section px-20 py-[177px]">
         <div className="flex items-end justify-between mb-12">
-            <div>
-              <h4 className="font-yellowtail text-4xl mb-2 font-normal text-padua aos-init aos-animate" data-aos='fade-right' data-aos-duration='1500'>News</h4>
-              <h2 className="font-extrabold text-5xl text-arapawa max-w-[702px] aos-init aos-animate" data-aos='fade-right' data-aos-duration='1500'>Discover weekly content about organic food, & more</h2>
-            </div>
+          <div>
+            <h4
+              className="font-yellowtail text-4xl mb-2 font-normal text-padua aos-init aos-animate"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
+              News
+            </h4>
+            <h2
+              className="font-extrabold text-5xl text-arapawa max-w-[702px] aos-init aos-animate"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
+              Discover weekly content about organic food, & more
+            </h2>
+          </div>
           <Link to={"/blog"}>
-            <Button icon={<ButtonArrow />} variant='tertiary' dataAos={"fade-left"} dataAosDuration={"1500"}>More News</Button>
+            <Button
+              icon={<ButtonArrow />}
+              variant="tertiary"
+              dataAos={"fade-left"}
+              dataAosDuration={"1500"}
+            >
+              More News
+            </Button>
           </Link>
         </div>
         <div className="grid grid-cols-2 gap-11">
           {blogData.map((item) => (
-            <Blog item={item}/>
+            <Blog item={item} />
           ))}
         </div>
       </section>
 
-      <NewsLatter/>
+      <NewsLatter />
     </div>
   );
 };
